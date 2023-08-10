@@ -1,0 +1,28 @@
+Vulnerability : نقطة ضعف يمكن استغلالها  
+Threat : احتمالية وجود شخص او شيء ما يحاول استغلال نقطة ضعف 
+vuln + exploit = threat 
+threat agent or threat actor : الشخص اللي يسوي تهديد 
+وله تصنيفتين : 
+External threat actor : شخص من خارج الشبكة ولا يملك اية صلاحيات 
+Internal : شخص داخل الشبكة ويملك صلاحيات وخطورته اكبر من الخارجي 
+Intent : ما الذي يريد فاعل التهديد ان يحققه ونتائجه 
+Motivation : السبب وراء فعله للتهديد 
+Attack vector : الطريقة التي تم التهديد بواسطتها 
+وتكون بـ :
+Direct access : اي تواصل فيزيائي مباشر مع جهازك 
+Removable media : عن طريق توصيل فلاش او قرص بجهازك
+Email : الوصول لجهازك بواسطة الايميل يحتوي امر ضار لك
+Remotly and wireless : وصول لجهازك عن بعد 
+Website and social media : وصول لجهازك عن طريق المواقع 
+Cloud : وصول لجهازك عن طريق التخزين السحابي المصاب 
+تصنيفات اخرى لمفتعلي التهديد : 
+Hacker Black hat ( غير مصرح له ) or White hat ( مصرح له ) او مختبر اختراق or Gray hat ( اعطى لنفسه الصلاحية للبحث عن ثغرة ويقدمها لصاحبها وممكن نسميهم بق باونتي ) or Script kiddie ( ما عنده سالفة ) 
+Risk : التاثير الناجم عن استغلال نقطة الضعف 
+Most popular Hacker teams or Hacktivists : 
+Anonymous - WikiLeaks - LulzSec 
+Advanced Persistent Threat ( APT ) : هجوم سيبراني متطور ومستمر من شهور او سنين من دولة على دولة 
+Threat research : قسم متابع لاخر اخبار مجال امن المعلومات 
+Honeynet or Honeybot : مصيدة للهاكرز ومليئة بالثغرات 
+DarkWeb : عبارة عن مواقع ومحتويات وخدمات مخفية عن شبكة الانترنت اخر الاخبار الخاصة بالمجال متواجدة هنا
+DarkNet : هي الشبكة التي من خلالها يمكن الدخول للدارك ويب 
+Open Source Intelligence ( OSINT ) : خدمات المجال المجانية 

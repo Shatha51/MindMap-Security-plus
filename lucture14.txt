@@ -1,0 +1,15 @@
+DHCP spoofing or DHCP rogue : انتحال DHCP 
+DHCP starvation : مهاجم يطلب عناوين بكثرة الى ان يتم مجاعة عناوين في الشبكة فيجي المهاجم يمثل انه بيساعدك فيقوم يعطيك ايبي مزيف يسمح له بالوصول للترافيك حقتك 
+DHCP snooping : خاصية تفعل على السويتش تسمح له بتسجيل عنوان الماك والبرايفت للاجهزة في سجل لكي لا يتلاعب به ويقوم بطلب DHCP عنوان اخر وايضا يمنع انتحال DHCP 
+DNS poisoning : تسميم DNS 
+من طرقها : 
+MITM attack 
+DNS client cache poisoning : تعديل ملف Hosts الذي يمتلك عناوين المواقع لغاية في نفسه 
+DNS server cache poisoning : تعديل العناوين في سيرفر DNS 
+DNS security ( DNSSEC ) : خاصية تجعل بين الطرفين تشفير ينفك بمفتاح
+SSL = TLS 
+HTTP + TLS = HTTPS
+Computer hardening : عملية تامين الهوست 
+Patch management : ادارة ترقيع الثغرات 
+End Point Protection ( EPP ) : انتي فايروس على سيرفر اي للشبكة كلها
+Data Loss Prevention ( DLP ) : منع تسريب البيانات خارج الشبكة عن طريق مراقبة جميع اللي انت تكتبه 

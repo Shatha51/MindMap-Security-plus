@@ -1,0 +1,6 @@
+لالتقاط الباكت لابد من تفعيل خاصية Switched Port Analyzer ( SPAN )
+او نستغني عن SPAN بشراء جهاز اخر
+Test Access Port ( TAP ) : جهاز يستخدم لتحليل الباكت 
+ادوات حقن الباكت :
+hping 
+tcpreplay 

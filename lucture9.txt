@@ -1,0 +1,38 @@
+Access Control System ( ACS System ) : مجموعة من التحكمات اللي تسمح للمدير السيطرة على Subject الذي يتواصل مع Object
+Subject : اي جهاز او مستخدم يطلب دخول على Object
+Object : قاعدة بيانات او سيرفر او الخ
+Identity and Access Management ( IAM ) : نظام موجود داخل ACS هو اللي يدير التحكمات فيه
+من مهامه :
+Identification : عمل حسابات او ايدي Subject
+Authentication : Subjectاثبات الهوية لل بالباسوورد 
+Authorization : Subjectتوضيح الحقوق والصلاحيات لل
+Accounting : Objectعملها في الSubjectتسجيل كل حاجة ال
+Authentication Factor ( Types ) :
+Something you know : مثل اليوزر نيم والباسوورد 
+Something you have authentication : حاجة انت تملكها مثل البطاقة الذكية 
+Something you are/you do : حاجة موجودة بالانسان مثل بصمة الاصبع
+Authentication design : 
+تطبيق معايير امن المعلومات ( CIA ) 
+Multi Factor Authenticaton ( MFA ) : استخدام اكثر من اسلوب للاوثنتكيشن
+Two-Factor Authentication ( 2FA ): استخدام اسلوبين للاوثنتكيشن 
+Three-Factor Authentication ( 3FA ) : استخدام ثلاثة اساليب للاوثنتكيشن
+انواع الاوثنتكيشن الثلاث في الويندوز : 
+Windows local sign-in : اوثنتكيشن شائع يطلب يوزر وباسوورد والهاش مخزن في قاعدة بيانات تسمى ( SAM ) 
+Windows network sign-in : الدخول للنتوورك عن طريق النتتورك نفسها 
+Remote sign-in : الدخول عن بعد 
+انواع الاوثنتكيشن في اللينكس : 
+تتخزن الهاشات عادة في ملف etc/passwd or etc/shadow 
+احد الطرق للاوثنتكيشن في الانظمة 
+Single sign-on ( SSO ) : طريقة دخول لمرة واحدة باعطاءه الصلاحيات للسيرفرات الاخرى 
+Kerberos : SSO بروتوكول يقوم بعمل الخدمة لـ
+Password Attack :
+Plaintext attack : استغلال مكان تخزين الباسوورد لو هو متخزن ككلير تكست 
+Online attack : تواصل المهاجم مع الاوثنتكيشن سيرفر للضحية مثلا محاولة الوصول لباسوورد حساب فيسبوك بالتجربة على سيرفر فيسبوك , ليس له تاثير كبير لان اغلب المواقع اصبحت تحظر كثرة محاولات التخمين
+Offline attack : محاولة الوصول للباسوورد من المهاجم الموجودة على جهاز معين مثل مسار systemroot\system32\config\SAM
+Brute force : محاولة تخمين لفك الشفرة واظهارها ككلير تكست , يحتاج لمعالج قوي 
+Dictionary attack : محاولة تخمين باستخدام لستة او معجم كلير تكست 
+Rainbow table : محاولة تخمين باستخدام لستة او معجم كلير تكست والهاش ايضا فهي مقارنة بين الهاشات , اسرع من الديكشنري 
+تكنيك salt : اضافة قيمة عشوائية للهاش المشفر لتصعيب مقارنة الهاش بالهاش فيتم تصعيب Rainbow table
+مثل اليونكس واللينكس لكن الويندوز لا 
+Hybrid attack : هجوم هجين يعني باستخدام نوعين من هجمات الباسوورد مع بعض
+Biometric authentication : عملية لاثبات هوية اليوزر بعوامله الحيوية كبصمة الاصبع او صوتك او عروق الجسد

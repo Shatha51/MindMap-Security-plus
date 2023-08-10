@@ -1,0 +1,4 @@
+من نقاط الضعف في الشبكات : 
+Single points of failure : استخدام جهاز واحد في الشبكة والاعتماد عليه 
+Lack of documentation and change control : عدم توزيع المهام بين الاجهزة فالكل يكون مسؤول عن شيء معين
+Overdependence on perimeter security : تامين تام للهجمات الخارجية مع اهمال تاثير الهمجات الداخلية 
